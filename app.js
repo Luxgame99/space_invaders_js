@@ -14,6 +14,9 @@ function createScene() {
 
   //create a camera
   const camera = new BABYLON.FreeCamera("camera", new BABYLON.Vector3(0, 0, -10), scene);
+  camera.setTarget(BABYLON.Vector3.Zero());
+
+  camera.attachControl(canvas, false);
 
   //create a light
   const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(0, 1, 0), scene);
@@ -46,8 +49,7 @@ function createScene() {
   ];
 
   const lines = new BABYLON.MeshBuilder.CreateLines("lines", {
-    points,
-
+    points: myPoints,
   }, scene)
 
   return scene;
