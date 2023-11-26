@@ -12,15 +12,17 @@ Space Invaders but in *3D*
 
 ### Requirements
 
-> A browser with HTML5 support
+> A browser with **HTML5** support
 
 ### How it's made
 
 > [Install NPM](https://github.com/npm/cli) from GitHub
+> 
 ```bash
 npm init
 ```
 > Follow instructions in terminal
+> 
 > [This](https://www.youtube.com/watch?v=eQH4273wy7w) Tutorial video
 
 ### Resources used
