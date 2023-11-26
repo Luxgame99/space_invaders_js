@@ -27,4 +27,4 @@ npm init
 
 ### Resources used
 
-* Insert Name : [![github](https://img.shields.io/badge/github-green)](URL)
+* Markdown : [![github](https://img.shields.io/badge/markdownguide.org-red)](https://www.markdownguide.org/cheat-sheet/)
