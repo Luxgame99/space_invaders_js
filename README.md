@@ -16,6 +16,8 @@ Space Invaders but in *3D*
 
 ### How it's made
 
+> Install [Node.js](https://nodejs.org) from their website
+> 
 > [Install NPM](https://github.com/npm/cli) from GitHub
 > 
 ```bash
